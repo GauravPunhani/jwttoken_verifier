@@ -26,7 +26,7 @@ public class JwtTokenFilter extends OncePerRequestFilter {
 	
 	@Override
 	protected boolean  shouldNotFilter(HttpServletRequest request) throws ServletException {
-		if(!request.getParameter("auth").equals("sc2")) {
+		if(!request.getParameter("auth").equals("sssss")) {
 			return true;
 		}else {
 			return false;
